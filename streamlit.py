@@ -4,7 +4,7 @@ from sumy_lib_based_summary import main as sumy_main
 # from transformers_based_summary import main as transformers_main
 
 if __name__ == "__main__":
-    st.runtime.legacy_caching.clear_cache()
+    #st.runtime.legacy_caching.clear_cache()
     st.set_page_config(layout="wide")
     st.title("Text Summarization ✍️")
     st.sidebar.header(
